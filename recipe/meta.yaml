@@ -1,5 +1,5 @@
 {% set name = "robocorp" %}
-{% set version = "0.9.0" %}
+{% set version = "0.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/robocorp-{{ version }}.tar.gz
-  sha256: 3332a406dec78249e52c899eae5d5f2923ffd2b6b8672226cf6e3286ab022f63
+  sha256: 9ffbff0c55f2f26abbb75c39d0976b9fefaafd8a78776f970e6c42c05ca4152c
 
 build:
   noarch: python
-  script: 
+  script:
     - echo f | xcopy /f /y /S %RECIPE_DIR%\README.md %SRC_DIR%\README.md  # [win]
     - cp -R {{ RECIPE_DIR }}/README.md {{ SRC_DIR }}/README.md  # [unix]
     - {{ PYTHON }} -m pip install . -vv
@@ -24,11 +24,11 @@ requirements:
     - pip
   run:
     - python >=3.9.0,<4.0.0
-    - robocorp-tasks 2.1.3
-    - robocorp-log 2.6.0
-    - robocorp-workitems 1.3.0
-    - robocorp-vault 1.2.0
-    - robocorp-storage 0.3.2
+    - robocorp-tasks =2.1.3
+    - robocorp-log =2.7.0
+    - robocorp-workitems =1.3.1
+    - robocorp-vault =1.2.0
+    - robocorp-storage =0.3.2
 
 test:
   imports:
@@ -46,6 +46,17 @@ test:
 about:
   home: https://github.com/robocorp/robo/
   summary: Robocorp core libraries for Python automation
+  description: 
+    This is a metapackage for installing the core libraries of Robocorp Python automation framework.
+    The following packages are currently included
+    robocorp-tasks
+    robocorp-log
+    robocorp-workitems
+    robocorp-vault
+    robocorp-storage
+  doc_url: https://robocorp.com/docs/python/robocorp
+  doc_source_url: https://github.com/robocorp/robo/tree/master/docs
+  dev_url: https://github.com/robocorp/robo#libraries
   license: Apache-2.0
   license_file: LICENSE
 
