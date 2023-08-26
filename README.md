@@ -9,6 +9,12 @@ Package license: Apache-2.0
 
 Summary: Robocorp core libraries for Python automation
 
+Development: https://github.com/robocorp/robo#libraries
+
+Documentation: https://robocorp.com/docs/python/robocorp
+
+This is a metapackage for installing the core libraries of Robocorp Python automation framework. The following packages are currently included robocorp-tasks robocorp-log robocorp-workitems robocorp-vault robocorp-storage
+
 Current build status
 ====================
 
@@ -144,4 +150,5 @@ Feedstock Maintainers
 =====================
 
 * [@rxm7706](https://github.com/rxm7706/)
+* [@zaigner](https://github.com/zaigner/)
 
