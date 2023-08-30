@@ -1,5 +1,5 @@
 {% set name = "robocorp" %}
-{% set version = "0.10.0" %}
+{% set version = "0.10.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/robocorp-{{ version }}.tar.gz
-  sha256: 9ffbff0c55f2f26abbb75c39d0976b9fefaafd8a78776f970e6c42c05ca4152c
+  sha256: e3a7134266391ad019caa4cdcfa6b9c0729e1cb114250330ef831f15b8a15af2
 
 build:
   noarch: python
@@ -46,14 +46,7 @@ test:
 about:
   home: https://github.com/robocorp/robo/
   summary: Robocorp core libraries for Python automation
-  description: 
-    This is a metapackage for installing the core libraries of Robocorp Python automation framework.
-    The following packages are currently included
-    robocorp-tasks
-    robocorp-log
-    robocorp-workitems
-    robocorp-vault
-    robocorp-storage
+  description: This is a metapackage for installing the core libraries of Robocorp Python automation framework. The following packages are currently included robocorp-tasks robocorp-log robocorp-workitems robocorp-vault robocorp-storage
   doc_url: https://robocorp.com/docs/python/robocorp
   doc_source_url: https://github.com/robocorp/robo/tree/master/docs
   dev_url: https://github.com/robocorp/robo#libraries
