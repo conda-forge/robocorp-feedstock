@@ -24,12 +24,11 @@ requirements:
     - pip
   run:
     - python >=3.9.0,<4.0.0
-    - robocorp-tasks =2.2.0
-    - robocorp-log =2.7.1
+    - robocorp-tasks =2.3.0
+    - robocorp-log =2.8.0
     - robocorp-workitems =1.4.0
     - robocorp-vault =1.3.0
-    - robocorp-storage =1.0.0
-
+    - robocorp-storage =1.0.1
 test:
   imports:
     - robocorp
