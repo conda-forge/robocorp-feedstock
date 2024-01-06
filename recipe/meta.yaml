@@ -43,9 +43,26 @@ test:
   requires:
     - pip
 
+test:
+  imports:
+    - robocorp
+    - robocorp.tasks
+    - robocorp.log
+    - robocorp.workitems
+    - robocorp.vault
+    - robocorp.storage
+  commands:
+    - pip check
+  requires:
+    - pip
+
 about:
   home: https://github.com/robocorp/robo/
   summary: Robocorp core libraries for Python automation
+  description: This is a metapackage for installing the core libraries of Robocorp Python automation framework. The following packages are currently included robocorp-tasks robocorp-log robocorp-workitems robocorp-vault robocorp-storage
+  doc_url: https://robocorp.com/docs/python/robocorp
+  doc_source_url: https://github.com/robocorp/robo/tree/master/docs
+  dev_url: https://github.com/robocorp/robo#libraries
   license: Apache-2.0
   license_file: LICENSE
 
