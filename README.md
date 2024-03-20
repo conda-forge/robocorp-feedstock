@@ -3,7 +3,7 @@ About robocorp-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/robocorp-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/robocorp/robo/
+Home: https://github.com/robocorp/robocorp/
 
 Package license: Apache-2.0
 
