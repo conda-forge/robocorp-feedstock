@@ -149,11 +149,11 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@conda-forge/robocorp-log](https://github.com/conda-forge/robocorp-log/)
-* [@conda-forge/robocorp-storage](https://github.com/conda-forge/robocorp-storage/)
-* [@conda-forge/robocorp-tasks](https://github.com/conda-forge/robocorp-tasks/)
-* [@conda-forge/robocorp-vault](https://github.com/conda-forge/robocorp-vault/)
-* [@conda-forge/robocorp-workitems](https://github.com/conda-forge/robocorp-workitems/)
+* [@conda-forge/robocorp-log](https://github.com/orgs/conda-forge/teams/robocorp-log/)
+* [@conda-forge/robocorp-storage](https://github.com/orgs/conda-forge/teams/robocorp-storage/)
+* [@conda-forge/robocorp-tasks](https://github.com/orgs/conda-forge/teams/robocorp-tasks/)
+* [@conda-forge/robocorp-vault](https://github.com/orgs/conda-forge/teams/robocorp-vault/)
+* [@conda-forge/robocorp-workitems](https://github.com/orgs/conda-forge/teams/robocorp-workitems/)
 * [@rxm7706](https://github.com/rxm7706/)
 * [@zaigner](https://github.com/zaigner/)
 
